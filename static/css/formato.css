@@ -1,0 +1,56 @@
+body{
+    background: url('../image/fondo.jpg');
+    background-size: cover;
+}
+
+#contenedor{
+    margin: auto;
+    width: 1000px;
+    height: 1000px;
+    background: red;
+    border-color: blue;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#contenedor #encabezado{
+    width: 1000px;
+    height: 1000px;
+    background-image: url('../image/encabezado.jpg');
+    border: 1px solid black;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#contenedor #mitad #izq{
+    width: 300px;
+    height: 650px;
+    background: rgb(37, 160, 109);
+    float: left;
+}
+
+#contenedor #mitad #der{
+    width: 700px;
+    height: 650px;
+    background: rgb(6, 231, 100);
+    float: right;
+}
+
+#contenedor #menu{
+    width: 1024;
+    height: 90px;
+    background: yellow;
+    border: 1px solid black;
+}
+
+#contenedor #mitad{
+    width: 1024;
+    height: 340px;
+    background: goldenrod;
+    border: 1px solid black;
+}
+#contenedor #pie{
+    width: 1000px;
+    height: 130px;
+    background-image: url('../image/piepagina.jpg');
+    border: 1px solid black;
+}
+ 
