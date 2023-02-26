@@ -1,0 +1,75 @@
+body {
+  background: url("../image/fondo.jpg");
+  background-size: cover;
+}
+#contenedor {
+  width: 100%;
+  height: 1000px;
+  background: red;
+}
+#contenedor #mitad {
+  width: 100%;
+  height: 100%;
+}
+#contenedor #izquierda {
+  width: 30%;
+  height: 100%;
+  background: url("../image/izquierda.jpg");
+  float: left;
+}
+#contenedor #derecha {
+  width: 100%;
+  height: 90%;
+  background: url("../image/derecha.jpg");
+}
+.menu1{
+  padding: 0%;
+  text-align: center;
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+  text-decoration: none;
+}li{
+  margin: auto;
+  padding-top: 10px;
+  list-style-type: none;
+  margin-top: 4px;
+  width: 95%;
+  height: 25px;
+  text-align: center;
+  font-size: 14px;
+  color: rgb(21, 21, 22);
+  border-radius: 10px;
+  background: #bfa;
+}
+ul li:hover{
+  background: green;
+}
+#contenedor #mitad #derecha #table{
+  margin: auto;
+  width: 100%;
+}tr td{
+  width: 20%;
+  text-align: center;
+}.imagen{
+  width: 60%;
+  height: 100px;
+  border-radius: 60%;
+  border: 2px solid red;
+}
+#contenedor  #pie{
+  width: 100%;
+  height: 10%;
+  background: url("../image/pie.jpg");
+}
+#contenedor #encabezado{
+  width: 100%;
+  height: 100px;
+  background: url("../image/encabezado.jpg");
+}
+#contenedor #menu{
+  width: 100%;
+  height: 60px;
+  background: url("../image/menu.jpg");
+}
+
